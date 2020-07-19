@@ -67,9 +67,11 @@ public class CombatManager : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
         if (attackSuccess) {
+            timerText.text = "<color=#0000ff> O </color>";
             Debug.Log("Enemy Damage");
         }
         else {
+            timerText.text = "<color=#ff0000> X </color>";
             Debug.Log("Player Damage");
         }
         timer = 0;
@@ -100,9 +102,11 @@ public class CombatManager : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
         if (attackSuccess) {
+            timerText.text = "<color=#0000ff> O </color>";
             Debug.Log("Enemy Damage");
         }
         else {
+            timerText.text = "<color=#ff0000> X </color>";
             Debug.Log("Player Damage");
         }
         timer = 0;
@@ -133,9 +137,11 @@ public class CombatManager : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
         if (attackSuccess) {
+            timerText.text = "<color=#0000ff> O </color>";
             Debug.Log("Enemy Damage");
         }
         else {
+            timerText.text = "<color=#ff0000> X </color>";
             Debug.Log("Player Damage");
         }
         timer = 0;
@@ -166,9 +172,11 @@ public class CombatManager : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
         if (attackSuccess) {
+            timerText.text = "<color=#0000ff> O </color>";
             Debug.Log("Enemy Damage");
         }
         else {
+            timerText.text = "<color=#ff0000> X </color>";
             Debug.Log("Player Damage");
         }
         timer = 0;
@@ -199,9 +207,11 @@ public class CombatManager : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
         if (attackSuccess) {
+            timerText.text = "<color=#0000ff> O </color>";
             Debug.Log("Enemy Damage");
         }
         else {
+            timerText.text = "<color=#ff0000> X </color>";
             Debug.Log("Player Damage");
         }
         timer = 0;
